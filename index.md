@@ -11,14 +11,27 @@ Fraud detection is a set of processes and analyses that allow businesses to iden
 <center><img src="images/fraud_detection.jpg"/></center>
 
 ---
-### Financial-Models-Numerical-Methods
+### Detectron2 Object Detection & Manipulating Images using Cartoonization
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/sajankedia/Financial-Models-Numerical-Methods)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/avs-abhishek123/Detecting-and-cartooning-an-image)
 
 This is just a collection of topics and algorithms that in my opinion are interesting.
 
-It contains several topics that are not so popular nowadays, but that can be very powerful. Usually, topics such as PDE methods, LÃ©vy processes, Fourier methods or Kalman filter are not very popular among practitioners, who prefers to work with more standard tools.
-The aim of these notebooks is to present these interesting topics, by showing their practical application through an interactive python implementation.
+The proposed model take up input as images in the format of
+PNG, or JPEG, using multiple libraries in which, we use the
+Detectron2 for the faster object detection of the objects using
+various object detection algorithms such as Mask R-CNN;
+Retina Net; Faster R-CNN; RPN; Fast R-CNN, R-FC;
+Classification; Deep Learning; Grayscale. We take the
+backbone & proposal that we crop & wrap and we implement
+all the box, mask, key points, dense pose and semantic
+segmentation, while clubbing it and generating labels and we
+detect the object using a box [4]
+. We have also manipulated
+images by grey scaling, cartoonizing, applying bilateral &
+Gaussian filtering, to derive insights addressing the issues
+companies face when shifting from research to production.
+
 
 <center><img src="images/financial_modeling.jpg"/></center>
 
